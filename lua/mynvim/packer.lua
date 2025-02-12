@@ -35,5 +35,14 @@ require('lazy').setup({
     'hrsh7th/cmp-nvim-lsp',
     'tpope/vim-fugitive',
 
-    'mbbill/undotree'
+    {
+        "ThePrimeagen/harpoon",
+        branch = "harpoon2",
+        dependencies = { { "nvim-lua/plenary.nvim" } }
+    },
+
+    'mbbill/undotree',
+    'folke/todo-comments.nvim',
+    'isakbm/gitgraph.nvim',
+    'numToStr/Comment.nvim'
 })
